@@ -67,7 +67,6 @@ body{
     overflow: hidden;
   }
   
-  /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
     color: white;
@@ -99,5 +98,5 @@ body{
       margin-bottom: 50px;
       font-size:20px;
       font-family: "Georama", sans-serif;
-
   }
+

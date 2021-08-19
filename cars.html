@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caleb's Forza Website</title>
+    <link rel="stylesheet" href="lib/css/cars.css" />
+  </head>
+  <body>
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a class="active" href="cars.html">Cars</a>
+      <a href="contact.html">Contact</a>
+      <h1 id="header">Caleb's Forza Website</h1>
+    </div>
+    <div id="content">
+      <div id="comments">
+          <div id="chevycomments">
+            <p class="chevycomments">One of the best sportscars ever!</p>
+            <p class="chevycomments">So many customizable options</p>
+            <button class="reviewBtn" id ="camaroBtn">Submit a Review</button>
+          </div>
+
+          <div id="fordcomments">
+            <p class="fordcomments">One of the best off-road vehicles ever!</p>
+            <p class="fordcomments">Very durable, holds up in rough terrain</p>
+            <button class="reviewBtn" id ="fordBtn">Submit a Review</button>
+
+        </div>
+        
+      </div>
+
+      <div id="imgs" >
+        <h1 class="namecar" onclick="chevyReveal()">Chevrolet Camaro</h1>
+        <p class="type" id="sportscar">Sportcar</p>
+        <img class="imgs" id="chevyImg" src="lib/css/img/camaro.png" alt="forza1" height="300px" width="450px" />
+        <h1 class="namecar"id="fordTitle" onclick="fordReveal()">Ford F-100</h1>
+        <p class="type" id="offroad">Off-Road Vehicle</p>
+        <img class="imgs" id="fordImg"src="lib/css/img/ford.png" alt="forza2" height="300px" width="480px"/>
+      </div>
+
+      <div id="specs">
+        <ul class="specs" id="chevyspecs">
+          <li>6.2L V8 DI supercharged engine(very fast)</li>
+          <li>6-speed manual transmission</li>
+          <li>Lowering suspension upgrade system</li>
+          <li>Power steering</li>
+          <li>Rear wheel drive</li>
+          <li>19 gal of fuel tank capacity</li>
+          <li>3837 lbs (1740 kg)</li>
+        </ul>
+
+        <ul class="specs" id="fordspecs">
+          <li>4.5L Naturally-Aspirated V8</li>
+          <li>4-speed Transmission</li>
+          <li>Rear Wheel Drive</li>
+          <li>21 gal of fuel tank capacity</li>
+          <li>6006 lbs (2724 kg)</li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="lib/js/cars.js" defer></script>
+  </body>
+</html>

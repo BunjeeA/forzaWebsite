@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Georama:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+body {
+  background-color: black;
+  font-family: 'Lato', sans-serif;
+
+}
+
+
+#header {
+  color: white;
+  font-family: "Georama", sans-serif;
+  text-align: center;
+  float: right;
+  padding: 2px 16px;
+  font-size: 17px;
+  margin-right: 15px;
+
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #141414;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  font-family: "Georama", sans-serif;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #c83e4d;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #2a4494;
+  color: white;
+}
+
+p {
+  color: white;
+  margin: 5px;
+}
+
+li {
+  color: white;
+}
+
+#content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+#comments{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+#chevycomments{
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  margin-top: 170px;
+  margin-bottom: 100px;
+  justify-content: center;
+
+}
+
+.chevycomments{
+  font-size: 30px;
+  margin: 0;
+
+}
+
+#fordcomments{
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  justify-content: center;
+  visibility: hidden;
+
+
+}
+
+.fordcomments{
+  font-size: 30px;
+  margin: 0;
+
+}
+
+#imgs{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+}
+
+.imgs{
+  margin-top: 0;
+}
+
+#fordImg{
+  visibility: hidden;
+
+}
+
+#chevyImg{
+  visibility: hidden;
+
+}
+
+#sportscar{
+  visibility: hidden;
+
+}
+
+#offroad{
+  visibility: hidden;
+
+}
+
+#specs{
+  display: flex;
+  flex-direction: column;
+}
+
+.specs{
+  list-style-type: none;
+  text-align: center;
+  margin-top: 130px;
+  margin-bottom: 150px;
+}
+
+#chevyspecs{
+  margin-top: 105px;
+  visibility: hidden;
+
+}
+
+#fordspecs{
+  margin-top: 70px;
+  visibility: hidden;
+}
+
+.specs li {
+  margin: 10px;
+}
+
+.namecar{
+  margin: 0;
+}
+
+#fordTitle{
+  margin-top: 30px;
+}
+
+.reviewBtn{
+  border-radius:16px;
+  font-size: 18px;
+}
